@@ -5,16 +5,20 @@ width_variable: 66%
 
 <div style="text-align: center">
 
-<h1>A Statistics-Driven Differentiable Approach for Sound Textures Synthesis and Analysis</h1>
+<h1>Fractional Fourier Sound Synthesis</h1>
 
 <p>
   <a href="https://cordutie.github.io/"><strong>Esteban Gutiérrez</strong></a><sup>1</sup>, 
-  <a href="https://ffont.github.io/"><strong>Frederic Font</strong></a><sup>1</sup>, 
-  <strong>Xavier Serra<sup>1</sup></strong>, and  
-  <a href="https://lonce.org/"><strong>Lonce Wyse</strong></a><sup>1</sup>
+  <a href="https://rodrigocadiz.com/"><strong>Rodrigo Cádiz</strong></a><sup>2,3</sup>, 
+  <a href="https://www.ing.uc.cl/academicos-e-investigadores/carlos-alberto-sing-long-collao/"><strong>Carlos Sing Long</strong></a><sup>4</sup>, 
+  <a href="https://ffont.github.io/"><strong>Frederic Font</strong></a><sup>1</sup>, and
+  <a href="https://www.upf.edu/web/xavier-serra"><strong>Xavier Serra</strong></a><sup>1</sup>
 </p>
 
 <p><sup>1</sup> <em>Department of Information and Communications Technologies, Universitat Pompeu Fabra</em></p>
+<p><sup>2</sup> <em>Music Institute, Pontificia Universidad Católica de Chile</em></p>
+<p><sup>3</sup> <em>Department of Electrical Engineering, Pontificia Universidad Católica de Chile</em></p>
+<p><sup>4</sup> <em>Instituto de Ingeniería Matemática y Computacional, Pontificia Universidad Católica de Chile</em></p>
 
 </div>
 
