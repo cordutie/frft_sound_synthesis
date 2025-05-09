@@ -29,8 +29,12 @@ This webpage provides supplementary materials for our paper <em>"Fractional Four
 {% include_relative 1_introduction.md %}
 
 <div style="margin-top: 40px;"></div>
-<h2><strong>2. Experiments</strong></h2>
-{% include_relative 2_experiments.md %}
+<h2><strong>2. Methods</strong></h2>
+{% include_relative 2_methods.md %}
+
+<div style="margin-top: 40px;"></div>
+<h2><strong>3. Experiments</strong></h2>
+{% include_relative 3_experiments.md %}
 
 <!-- <div style="margin-top: 40px;"></div>
 <div style="display: flex; justify-content: center;">
