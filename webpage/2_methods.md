@@ -5,7 +5,7 @@ In this section, we explore sound synthesis and manipulation methods strongly ba
 <!-- Method 1: α-Synthesis -->
 <div style="margin-top: 20px;"></div>
 <details>
-<summary><span style="font-weight: normal; font-size: 1.5em; color: black">Method 1: <em>α</em>-Synthesis</span></summary>
+<summary><span style="font-weight: normal; font-size: 1.5em; color: black">Method 1: <em>α</em>-Synthesis 📖 🚧</span></summary>
 <div style="margin-top: 20px;"></div>
 
 <p>
@@ -20,7 +20,7 @@ Based on this, we introduce the <em>α</em>-Synthesis method as the application 
 <!-- Method 2: α-Filtering -->
 <div style="margin-top: 20px;"></div>
 <details>
-<summary><span style="font-weight: normal; font-size: 1.5em; color: black">Method 2: <em>α</em>-Filtering</span></summary>
+<summary><span style="font-weight: normal; font-size: 1.5em; color: black">Method 2: <em>α</em>-Filtering 📖 🚧</span></summary>
 <div style="margin-top: 20px;"></div>
 
 <p>

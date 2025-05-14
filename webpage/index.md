@@ -36,7 +36,12 @@ This webpage provides supplementary materials for our paper <em>"Fractional Four
 <h2><strong>3. Experiments</strong></h2>
 {% include_relative 3_experiments.md %}
 
-<!-- <div style="margin-top: 40px;"></div>
+<div style="margin-top: 40px;"></div>
+<h2><strong>Acknowledgements</strong></h2>
+
+This research was supported by the ANID Fondecyt Grant \#1230926 funded by the Government of Chile and the project "IA y Música: Cá-tedra en Inteligencia Artificial y Música (TSI-100929-2023-1)" funded by the "Secretaría de Estado de Digitalización e Inteligencia Artificial and the Unión Europea-Next Generation EU". We would also like to thank Diego Vera for his contributions to an early version of this project during his undergraduate research.
+
+<div style="margin-top: 40px;"></div>
 <div style="display: flex; justify-content: center;">
   <div style="border-left: 4px solid rgb(255, 255, 255); background: #f0f8ff; padding: 1em 1.2em; margin: 1.5em 0; border-radius: 8px; max-width: 300px; width: 100%;">
     <strong>Legend:</strong>
@@ -47,9 +52,4 @@ This webpage provides supplementary materials for our paper <em>"Fractional Four
       <li>🚧 Still under construction</li>
     </ul>
   </div>
-</div> -->
-
-<div style="margin-top: 40px;"></div>
-<h2><strong>Acknowledgements</strong></h2>
-
-This research was supported by the ANID Fondecyt Grant \#1230926 funded by the Government of Chile and the project "IA y Música: Cá-tedra en Inteligencia Artificial y Música (TSI-100929-2023-1)" funded by the "Secretaría de Estado de Digitalización e Inteligencia Artificial and the Unión Europea-Next Generation EU". We would also like to thank Diego Vera for his contributions to an early version of this project during his undergraduate research.
+</div>

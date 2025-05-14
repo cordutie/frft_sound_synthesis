@@ -2,7 +2,7 @@ Several videos and sound examples showcasing a series of sound examples built us
 
 <div style="margin-top: 20px;"></div>
 <details>
-<summary><span style="font-weight: normal; font-size: 1.5em; color: black">2.1. Time-Frequency Domain Rotation</span></summary>
+<summary><span style="font-weight: normal; font-size: 1.5em; color: black">3.1. Time-Frequency Domain Rotation</span></summary>
 <div style="margin-top: 20px;"></div>
 
 <p>
@@ -14,17 +14,14 @@ For this example, we considered a sinusoid with a frequency of \(10025\) Hz (exa
 
 <div style="margin-top: 20px;"></div>
 <div style="text-align: center;">
-  <iframe width="560" height="315" src=
-  "https://www.youtube.com/embed/VIDEO_ID" 
-  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-  allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wILsqh9GTIo?si=H7enGu43S8OpJFCR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 </details>
 
 <div style="margin-top: 20px;"></div>
 <details>
-<summary><span style="font-weight: normal; font-size: 1.5em; color: black">2.2. Sound Example Group 1: \(\alpha\)-Synthesis</span></summary>
+<summary><span style="font-weight: normal; font-size: 1.5em; color: black">3.2. Sound Example Group 1: \(\alpha\)-Synthesis 🎧</span></summary>
 <div style="margin-top: 20px;"></div>
 
 <p>
@@ -33,11 +30,16 @@ In our first group of sound examples, we used Method 1 to generate audio from th
 Specifically, one second of audio is generated from a sinusoid for each frequency in \(\{55, 220, 880\}\) Hz. These sounds are then processed using the FrFT with window sizes of \(\{0.5, 1\}\) seconds, hop sizes equal to half of the window sizes, and angles in \(\{0, 0.01, 0.05, 0.1, 0.25, 0.5\}\). Each video corresponds to one frequency and one window size setting, and all transforms are displayed sequentially with angles increasing as mentioned. Spectrum and spectrogram representations are available in separate videos.
 </p>
 
+<div style="margin-top: 20px;"></div>
+<div style="text-align: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q5bxa2bTDeE?si=Gr53U0MIKvJqeNrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 </details>
 
 <div style="margin-top: 20px;"></div>
 <details>
-<summary><span style="font-weight: normal; font-size: 1.5em; color: black">2.3. Sound Example Group 2: \(\alpha\)-Synthesis + Angle Manipulation</span></summary>
+<summary><span style="font-weight: normal; font-size: 1.5em; color: black">3.3. Sound Example Group 2: \(\alpha\)-Synthesis + Angle Manipulation 🎧</span></summary>
 <div style="margin-top: 20px;"></div>
 
 <p>
@@ -46,11 +48,17 @@ In this group of sound examples, we use Method 1 by computing the FrFT of severa
 Specifically, one second of audio is generated from a sinusoid for each frequency in \(\{55, 220, 880\}\) Hz. These sounds are then processed using the FrFT with window sizes of approximately \(0.046, 0.092, 0.18,\) and \(0.32\) seconds, with hop sizes equal to half of the respective window sizes, and values of \(\alpha\) increasing linearly from \(0\) to \(0.5\). Each video corresponds to one frequency, with all transforms displayed sequentially as the window sizes increase according to the values mentioned. Spectrum and spectrogram representations are provided in separate videos.
 </p>
 
+
+<div style="margin-top: 20px;"></div>
+<div style="text-align: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B0pOn1DQwiY?si=zykswsdaMBzfefca" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 </details>
 
 <div style="margin-top: 20px;"></div>
 <details>
-<summary><span style="font-weight: normal; font-size: 1.5em; color: black">2.3. Sound Example Group 3: \(\alpha\)-Filtering + Band Manipulation</span></summary>
+<summary><span style="font-weight: normal; font-size: 1.5em; color: black">3.4. Sound Example Group 3: \(\alpha\)-Filtering + Band Manipulation 🎧</span></summary>
 <div style="margin-top: 20px;"></div>
 
 <p>
@@ -62,6 +70,11 @@ where \(t\) corresponds to time, \(b\) to the bandwidth of the filter, and \(c\)
 
 Specifically, two seconds of two sinusoids at frequencies \(220\) Hz and \(3520\) Hz are generated and \(\alpha\)-band pass filtered using the spectrum of impulse responses in the form of the equation above with \(b=1\), \(c\) increasing exponentially (base \(2\)) from  \(100\) to \(10000\), and values of \(\alpha\) in \(\{0.01, 0.05, 0.1, 0.25, 0.5\}\). The filtering is done using window sizes of approximately \(0.19\) and \(0.38\) seconds, with hop sizes equal to half of the respective window sizes. Each video corresponds to a specific frequency and window size setting, with all transforms displayed sequentially as the angles increase according to the specified values.
 </p>
+
+<div style="margin-top: 20px;"></div>
+<div style="text-align: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VmrND7O0xfU?si=QBjePY4ke_9fNndm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 </details>
 
