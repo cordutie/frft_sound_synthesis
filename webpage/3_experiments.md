@@ -2,7 +2,7 @@ Several videos and sound examples showcasing a series of sound examples built us
 
 <div style="margin-top: 20px;"></div>
 <details>
-<summary><span style="font-weight: normal; font-size: 1.5em; color: black">3.1. Time-Frequency Domain Rotation</span></summary>
+<summary><span style="font-weight: normal; font-size: 1.5em; color: black">3.1. Time-Frequency Domain Rotation 📊</span></summary>
 <div style="margin-top: 20px;"></div>
 
 <p>
