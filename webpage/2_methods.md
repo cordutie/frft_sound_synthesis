@@ -5,7 +5,7 @@ In this section, we explore sound synthesis and manipulation methods strongly ba
 <!-- Method 1: α-Synthesis -->
 <div style="margin-top: 20px;"></div>
 <details>
-<summary><span style="font-weight: normal; font-size: 1.5em; color: black">Method 1: <em>α</em>-Synthesis 📖 🚧</span></summary>
+<summary><span style="font-weight: normal; font-size: 1.5em; color: black">Method 1: \(\alpha\)-Synthesis 📖 🚧</span></summary>
 <div style="margin-top: 20px;"></div>
 
 <p>
@@ -13,14 +13,14 @@ The FrFT can transform any type of sound, and while it might generate interestin
 </p>
 
 <p>
-Based on this, we introduce the <em>α</em>-Synthesis method as the application of the FrFT, with the previously mentioned limitations, on pure sinusoids. Sinusoids are clear examples of sounds with simple spectrograms that are easy to understand, allowing the use of the FrFT to generate complex yet intelligible sounds.
+Based on this, we introduce the \(\alpha\)-Synthesis method as the application of the FrFT, with the previously mentioned limitations, on pure sinusoids. Sinusoids are clear examples of sounds with simple spectrograms that are easy to understand, allowing the use of the FrFT to generate complex yet intelligible sounds.
 </p>
 </details>
 
 <!-- Method 2: α-Filtering -->
 <div style="margin-top: 20px;"></div>
 <details>
-<summary><span style="font-weight: normal; font-size: 1.5em; color: black">Method 2: <em>α</em>-Filtering 📖 🚧</span></summary>
+<summary><span style="font-weight: normal; font-size: 1.5em; color: black">Method 2: \(\alpha\)-Filtering 📖 🚧</span></summary>
 <div style="margin-top: 20px;"></div>
 
 <p>
@@ -28,10 +28,10 @@ It is well known that the Fourier Transform can be used to create filters in the
 </p>
 
 <p>
-Given this, what exactly is filtering using the FrFT? The human auditory system has a well-studied sensitivity to frequency, making frequency domain filters a reasonable and understandable process in audio contexts. On the other hand, the FrFT transforms signals into the <em>α</em>-domain, a mixture of frequency and time. To our knowledge, the human auditory system does not have a well-established understanding of this domain. Specifically, in the frequency domain, each band corresponds to a pure sinusoid in the time domain. However, a band in the <em>α</em>-domain corresponds to a signal that heavily depends on the value of <em>α</em>, and to our understanding, no studies have explored human perception of such signals.
+Given this, what exactly is filtering using the FrFT? The human auditory system has a well-studied sensitivity to frequency, making frequency domain filters a reasonable and understandable process in audio contexts. On the other hand, the FrFT transforms signals into the \(\alpha\)-domain, a mixture of frequency and time. To our knowledge, the human auditory system does not have a well-established understanding of this domain. Specifically, in the frequency domain, each band corresponds to a pure sinusoid in the time domain. However, a band in the \(\alpha\)-domain corresponds to a signal that heavily depends on the value of \(\alpha\), and to our understanding, no studies have explored human perception of such signals.
 </p>
 
 <p>
-For our purposes, we propose the <em>α</em>-Filtering method as a natural generalization of frequency domain filtering. Specifically, a signal is first transformed into the <em>α</em>-domain using the FrFT, then multiplied with a kernel, and finally transformed back to the time domain using the corresponding inverse FrFT. Similar to the frequency domain, one can define <em>α</em>-low pass, <em>α</em>-band pass, and <em>α</em>-high pass filters using appropriate kernels. However, it must be understood that "low," "band," and "high" in this context will generally not correspond to frequency. For example, an <em>α</em>-low pass filtered signal might have richer high-frequency content than its <em>α</em>-high pass counterpart.
+For our purposes, we propose the \(\alpha\)-Filtering method as a natural generalization of frequency domain filtering. Specifically, a signal is first transformed into the \(\alpha\)-domain using the FrFT, then multiplied with a kernel, and finally transformed back to the time domain using the corresponding inverse FrFT. Similar to the frequency domain, one can define \(\alpha\)-low pass, \(\alpha\)-band pass, and \(\alpha\)-high pass filters using appropriate kernels. However, it must be understood that "low," "band," and "high" in this context will generally not correspond to frequency. For example, an \(\alpha\)-low pass filtered signal might have richer high-frequency content than its \(\alpha\)-high pass counterpart.
 </p>
 </details>

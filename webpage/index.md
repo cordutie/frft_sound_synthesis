@@ -3,6 +3,11 @@ layout: inner_no_margin
 width_variable: 66%
 ---
 
+<div style="position: relative; width: 100%; height: 60px; margin-bottom: 20px;">
+  <img src="assets/img/uc.svg" alt="UC Logo" style="position: absolute; top: 50%; left: 0; height: 80px; transform: translateY(-50%);">
+  <img src="assets/img/upf.png" alt="UPF Logo" style="position: absolute; top: 50%; right: 0; height: 60px; transform: translateY(-50%);">
+</div>
+
 <div style="text-align: center">
 <h1>Fractional Fourier Sound Synthesis</h1>
 <p>
@@ -12,6 +17,7 @@ width_variable: 66%
   <a href="https://ffont.github.io/"><strong>Frederic Font</strong></a><sup>1</sup>, and
   <a href="https://www.upf.edu/web/xavier-serra"><strong>Xavier Serra</strong></a><sup>1</sup>
 </p>
+
 <p>
   <sup>1</sup> <em>Department of Information and Communications Technologies, Universitat Pompeu Fabra</em><br>
   <sup>2</sup> <em>Music Institute, Pontificia Universidad Católica de Chile</em><br>
@@ -53,3 +59,4 @@ This webpage provides supplementary materials for our paper <em>"Fractional Four
 <h2><strong>Acknowledgements</strong></h2>
 
 This research was supported by the ANID Fondecyt Grant \#1230926 funded by the Government of Chile and the project "IA y Música: Cá-tedra en Inteligencia Artificial y Música (TSI-100929-2023-1)" funded by the "Secretaría de Estado de Digitalización e Inteligencia Artificial and the Unión Europea-Next Generation EU". We would also like to thank Diego Vera for his contributions to an early version of this project during his undergraduate research.
+
