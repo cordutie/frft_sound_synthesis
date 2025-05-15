@@ -60,3 +60,6 @@ This webpage provides supplementary materials for our paper <em>"Fractional Four
 
 This research was supported by the ANID Fondecyt Grant \#1230926 funded by the Government of Chile and the project "IA y Música: Cá-tedra en Inteligencia Artificial y Música (TSI-100929-2023-1)" funded by the "Secretaría de Estado de Digitalización e Inteligencia Artificial and the Unión Europea-Next Generation EU". We would also like to thank Diego Vera for his contributions to an early version of this project during his undergraduate research.
 
+<div style="justify-content: center; width: 100%;">
+  <img src="assets/img/chair.png" alt="Funding" style="top: 50%; right: 0; width: 100%;">
+</div>
