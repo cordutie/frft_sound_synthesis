@@ -78,3 +78,18 @@ Specifically, two seconds of two sinusoids at frequencies \(220\) Hz and \(3520\
 
 </details>
 
+<div style="margin-top: 20px;"></div>
+<details>
+<summary><span style="font-weight: normal; font-size: 1.5em; color: black">3.5. Sound Example Group 4: Angle Manipulation on Original Sources 🎧</span></summary>
+<div style="margin-top: 20px;"></div>
+
+<p>
+For this examples different sources are manipulated using the FrFT using different amgles, window lengths and hop sizes.
+</p>
+
+<div style="margin-top: 20px;"></div>
+<div style="text-align: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VmrND7O0xfU?si=QBjePY4ke_9fNndm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+</details>
