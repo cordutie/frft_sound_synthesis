@@ -92,7 +92,7 @@ For this example, various sound sources are transformed using the Fractional Fou
 </div>
 
 <div style="text-align: center; margin-top: 1em;">
-  <a href="./3_experiments_extra.html" download style="display: inline-block; background: #3498db; color: white; padding: 0.6em 1em; border-radius: 5px; text-decoration: none;">
+  <a href="./3_experiments_extra.html" style="display: inline-block; background: #3498db; color: white; padding: 0.6em 1em; border-radius: 5px; text-decoration: none;">
     🎧 See more examples here
   </a>
 </div>
