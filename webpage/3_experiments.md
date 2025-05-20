@@ -1,7 +1,7 @@
 Several videos and sound examples showcasing a series of sound examples built using the techniques discussed herein are included below. A brief explanation of each visual and sonic example is provided in this section.
 
 <div style="margin-top: 20px;"></div>
-<details>
+<details open>
 <summary><span style="font-weight: normal; font-size: 1.5em; color: black">3.1. Time-Frequency Domain Rotation 📊</span></summary>
 <div style="margin-top: 20px;"></div>
 
@@ -20,7 +20,7 @@ For this example, we considered a sinusoid with a frequency of \(10025\) Hz (exa
 </details>
 
 <div style="margin-top: 20px;"></div>
-<details>
+<details open>
 <summary><span style="font-weight: normal; font-size: 1.5em; color: black">3.2. Sound Example Group 1: \(\alpha\)-Synthesis 🎧</span></summary>
 <div style="margin-top: 20px;"></div>
 
@@ -38,7 +38,7 @@ Specifically, one second of audio is generated from a sinusoid for each frequenc
 </details>
 
 <div style="margin-top: 20px;"></div>
-<details>
+<details open>
 <summary><span style="font-weight: normal; font-size: 1.5em; color: black">3.3. Sound Example Group 2: \(\alpha\)-Synthesis + Angle Manipulation 🎧</span></summary>
 <div style="margin-top: 20px;"></div>
 
@@ -57,7 +57,7 @@ Specifically, one second of audio is generated from a sinusoid for each frequenc
 </details>
 
 <div style="margin-top: 20px;"></div>
-<details>
+<details open>
 <summary><span style="font-weight: normal; font-size: 1.5em; color: black">3.4. Sound Example Group 3: \(\alpha\)-Filtering + Band Manipulation 🎧</span></summary>
 <div style="margin-top: 20px;"></div>
 
@@ -79,17 +79,22 @@ Specifically, two seconds of two sinusoids at frequencies \(220\) Hz and \(3520\
 </details>
 
 <div style="margin-top: 20px;"></div>
-<details>
+<details open>
 <summary><span style="font-weight: normal; font-size: 1.5em; color: black">3.5. Sound Example Group 4: Angle Manipulation on Original Sources 🎧</span></summary>
 <div style="margin-top: 20px;"></div>
 
 <p>
-For this examples different sources are manipulated using the FrFT using different amgles, window lengths and hop sizes.
-</p>
+For this example, various sound sources are transformed using the Fractional Fourier Transform (FrFT) with differing parameter settings. All audio materials originate from original recordings created by the first author for a previous project. Find a link with more examples below.</p>
 
 <div style="margin-top: 20px;"></div>
 <div style="text-align: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VmrND7O0xfU?si=QBjePY4ke_9fNndm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<div style="text-align: center; margin-top: 1em;">
+  <a href="./3_experiments_extra.html" download style="display: inline-block; background: #3498db; color: white; padding: 0.6em 1em; border-radius: 5px; text-decoration: none;">
+    🎧 See more examples here
+  </a>
 </div>
 
 </details>
