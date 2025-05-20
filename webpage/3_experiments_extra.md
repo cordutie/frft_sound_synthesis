@@ -73,7 +73,7 @@ This table presents several examples in which various sound sources are transfor
   <div class="sub-header">ws = 4096</div>
   <div class="sub-header">ws = 8192</div>
 
-<div class="sound-label">Cacophonic melody played on an electric bass through a reverb pedal.</div>
+  <!-- <div class="sound-label">Cacophonic melody played on an electric bass through a reverb pedal.</div>
   <div><audio controls src="./assets/audios/bass_cacophonic_original.mp3"></audio></div>
   <div><audio controls src="./assets/audios/bass_cacophonic_angle_0.01_ws_2048.mp3"></audio></div>
   <div><audio controls src="./assets/audios/bass_cacophonic_angle_0.01_ws_4096.mp3"></audio></div>
@@ -83,8 +83,8 @@ This table presents several examples in which various sound sources are transfor
   <div><audio controls src="./assets/audios/bass_cacophonic_angle_0.05_ws_8192.mp3"></audio></div>
   <div><audio controls src="./assets/audios/bass_cacophonic_angle_0.10_ws_2048.mp3"></audio></div>
   <div><audio controls src="./assets/audios/bass_cacophonic_angle_0.10_ws_4096.mp3"></audio></div>
-  <div><audio controls src="./assets/audios/bass_cacophonic_angle_0.10_ws_8192.mp3"></audio></div>
-  <div class="sound-label">Electric bass processed through a pitch-shifting delay (adding fifths in every iteration)</div>
+  <div><audio controls src="./assets/audios/bass_cacophonic_angle_0.10_ws_8192.mp3"></audio></div> -->
+  <!-- <div class="sound-label">Electric bass processed through a pitch-shifting delay (adding fifths in every iteration)</div>
   <div><audio controls src="./assets/audios/bass_delay_original.mp3"></audio></div>
   <div><audio controls src="./assets/audios/bass_delay_angle_0.01_ws_2048.mp3"></audio></div>
   <div><audio controls src="./assets/audios/bass_delay_angle_0.01_ws_4096.mp3"></audio></div>
@@ -94,8 +94,8 @@ This table presents several examples in which various sound sources are transfor
   <div><audio controls src="./assets/audios/bass_delay_angle_0.05_ws_8192.mp3"></audio></div>
   <div><audio controls src="./assets/audios/bass_delay_angle_0.10_ws_2048.mp3"></audio></div>
   <div><audio controls src="./assets/audios/bass_delay_angle_0.10_ws_4096.mp3"></audio></div>
-  <div><audio controls src="./assets/audios/bass_delay_angle_0.10_ws_8192.mp3"></audio></div>
-  <div class="sound-label">Chord sequence played on a synthesizer.</div>
+  <div><audio controls src="./assets/audios/bass_delay_angle_0.10_ws_8192.mp3"></audio></div> -->
+  <!-- <div class="sound-label">Chord sequence played on a synthesizer.</div>
   <div><audio controls src="./assets/audios/chordula_original.mp3"></audio></div>
   <div><audio controls src="./assets/audios/chordula_angle_0.01_ws_2048.mp3"></audio></div>
   <div><audio controls src="./assets/audios/chordula_angle_0.01_ws_4096.mp3"></audio></div>
@@ -105,8 +105,8 @@ This table presents several examples in which various sound sources are transfor
   <div><audio controls src="./assets/audios/chordula_angle_0.05_ws_8192.mp3"></audio></div>
   <div><audio controls src="./assets/audios/chordula_angle_0.10_ws_2048.mp3"></audio></div>
   <div><audio controls src="./assets/audios/chordula_angle_0.10_ws_4096.mp3"></audio></div>
-  <div><audio controls src="./assets/audios/chordula_angle_0.10_ws_8192.mp3"></audio></div>
-  <div class="sound-label">Random pitched triangular signals processed with overdrive</div>
+  <div><audio controls src="./assets/audios/chordula_angle_0.10_ws_8192.mp3"></audio></div> -->
+  <!-- <div class="sound-label">Random pitched triangular signals processed with overdrive</div>
   <div><audio controls src="./assets/audios/circuits_original.mp3"></audio></div>
   <div><audio controls src="./assets/audios/circuits_angle_0.01_ws_2048.mp3"></audio></div>
   <div><audio controls src="./assets/audios/circuits_angle_0.01_ws_4096.mp3"></audio></div>
@@ -116,7 +116,7 @@ This table presents several examples in which various sound sources are transfor
   <div><audio controls src="./assets/audios/circuits_angle_0.05_ws_8192.mp3"></audio></div>
   <div><audio controls src="./assets/audios/circuits_angle_0.10_ws_2048.mp3"></audio></div>
   <div><audio controls src="./assets/audios/circuits_angle_0.10_ws_4096.mp3"></audio></div>
-  <div><audio controls src="./assets/audios/circuits_angle_0.10_ws_8192.mp3"></audio></div>
+  <div><audio controls src="./assets/audios/circuits_angle_0.10_ws_8192.mp3"></audio></div> -->
   <div class="sound-label">Arrangement of glass sounds</div>
   <div><audio controls src="./assets/audios/glasses_original.mp3"></audio></div>
   <div><audio controls src="./assets/audios/glasses_angle_0.01_ws_2048.mp3"></audio></div>
