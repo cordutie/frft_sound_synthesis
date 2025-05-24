@@ -263,6 +263,8 @@ import subprocess
 import os
 
 def create_spectrum_video(signal, sample_rate, output_video_path, figsize=(14, 10)):
+    if os.path.exists(output_video_path):
+        os.remove(output_video_path)
     duration = len(signal) / sample_rate
     frame_size = 4096
     hop_size = 1024
@@ -275,7 +277,7 @@ def create_spectrum_video(signal, sample_rate, output_video_path, figsize=(14, 1
     ax.grid(True, color='gray', linestyle='-', linewidth=0.5)
     line, = ax.plot(freq_bins, np.zeros_like(freq_bins), color='orange')
     ax.set_xlim(freq_bins[2], freq_bins[-1])
-    ax.set_ylim(-125, 40)
+    ax.set_ylim(-125, 60)
     ax.set_xscale('log')
     tick_frequencies = [125, 250, 500, 1000, 2000, 4000, 8000, 16000]
     ax.set_xticks(tick_frequencies)
@@ -287,7 +289,7 @@ def create_spectrum_video(signal, sample_rate, output_video_path, figsize=(14, 1
 
     def update_spectrum(frame):
         start = frame * hop_size
-        end = start + frame_size
+        end   = start + frame_size
         if end > len(signal):
             return line,
         windowed_signal = signal[start:end] * hann_window
@@ -301,13 +303,18 @@ def create_spectrum_video(signal, sample_rate, output_video_path, figsize=(14, 1
         interval=1000 * hop_size / sample_rate, blit=True
     )
 
-    temp_audio_file = output_video_path+'temp_audio.wav'
-    temp_video_file = output_video_path+'temp_video.mp4'
+    temp_audio_file = 'temp_audio.wav'
+    temp_video_file = 'temp_video.mp4'
     
     # Save the audio and video files
     sf.write(temp_audio_file, signal, sample_rate)
-    ani.save(temp_video_file, writer='ffmpeg', fps=30)
+    ani.save(temp_video_file, writer='ffmpeg', fps=sample_rate/hop_size)
     plt.close(fig)
+
+    # Combine video and audio using ffmpeg
+    video_input = ffmpeg.input(temp_video_file)
+    audio_input = ffmpeg.input(temp_audio_file)
+    ffmpeg.output(video_input, audio_input, output_video_path, vcodec='libx264', acodec='aac', audio_bitrate='256k', pix_fmt='yuv420p').run()
 
     if os.path.exists(output_video_path):
         os.remove(output_video_path)
@@ -335,3 +342,81 @@ def create_spectrum_video(signal, sample_rate, output_video_path, figsize=(14, 1
 # t = np.linspace(0, 1, sr)
 # signal = np.sin(2 * np.pi * (220 + 5000 * t) * t) + np.sin(2 * np.pi * (5000 - 4500 * t) * t)
 # create_spectrum_video(signal, sr, 'spectrum_video_with_audio.mp4', figsize=(14, 10))
+
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.animation as animation
+import ffmpeg
+
+def create_spectrogram_video(audio_signal_og, sampling_rate, video_filename, window_seconds=2):
+    """
+    Create a video showing the spectrogram of an audio signal and add the sound to the video.
+
+    Parameters:
+    - audio_signal: numpy array, the audio signal.
+    - sampling_rate: int, the sampling rate of the audio signal.
+    - video_filename: str, the name of the output video file.
+    - window_seconds: int, the number of seconds of audio to show in each frame of the spectrogram.
+    """
+    import os
+    if os.path.exists(video_filename):
+        os.remove(video_filename)
+    if os.path.exists('temp_animation.mp4'):
+        os.remove('temp_animation.mp4')
+    if os.path.exists('temp_audio.wav'):
+        os.remove('temp_audio.wav')
+    
+    window_samples = window_seconds * sampling_rate
+    hop_samples = 1024
+    NFFT = 4096
+    noverlap = int(NFFT * 0.9)
+
+    audio_signal = np.concatenate((np.zeros(window_samples), audio_signal_og))
+    white_noise = np.random.randn(len(audio_signal)) * 0.00000001
+    audio_signal += white_noise
+
+    fig, ax = plt.subplots()
+
+    def update(frame):
+        frame = frame + 1
+        ax.clear()
+        
+        start_sample = frame * hop_samples
+        end_sample = start_sample + window_samples
+        segment = audio_signal[start_sample:end_sample]
+        
+        Pxx, freqs, bins, im = ax.specgram(segment, NFFT=NFFT, Fs=sampling_rate, noverlap=noverlap, cmap='inferno', vmin=-300, vmax=0)
+        ax.set_xlim(0.1, bins[-1])
+        ax.set_ylim(freqs[1], np.max(freqs))
+        
+        ax.set_xlabel('Time (s)')
+        ax.set_xticks([])
+        ax.set_ylabel('Frequency (Hz)')
+        
+        return im,
+
+    ani = animation.FuncAnimation(fig, update, frames=(len(audio_signal)-window_samples) // hop_samples - 1, blit=False)
+
+    time_per_frame = hop_samples / sampling_rate
+    number_of_frames_per_second = int(1 / time_per_frame)
+
+    temp_video_filename = 'temp_animation.mp4'
+    ani.save(temp_video_filename, writer='ffmpeg', fps=number_of_frames_per_second)
+
+    # Save the audio to a temporary file
+    temp_audio_filename = 'temp_audio.wav'
+    max_val = np.max(np.abs(audio_signal_og))
+    if max_val > 0:
+        audio_signal_og = audio_signal_og / max_val
+    audio_signal_og = (audio_signal_og * 32767).astype(np.int16)  # Convert to 16-bit PCM
+    import scipy.io.wavfile as wavfile
+    wavfile.write(temp_audio_filename, sampling_rate, audio_signal_og)
+
+    # Combine video and audio using ffmpeg
+    video_input = ffmpeg.input(temp_video_filename)
+    audio_input = ffmpeg.input(temp_audio_filename)
+    ffmpeg.output(video_input, audio_input, video_filename, vcodec='libx264', acodec='aac', audio_bitrate='256k', pix_fmt='yuv420p').run()
+
+    # Clean up temporary files
+    os.remove(temp_video_filename)
+    os.remove(temp_audio_filename)
