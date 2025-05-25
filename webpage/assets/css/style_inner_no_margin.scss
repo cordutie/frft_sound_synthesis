@@ -3,10 +3,12 @@
 
 @import "jekyll-theme-minimal";
 
-// /* Make the wrapper centered */
-// .wrapper {
-//     max-width: 100%;  /* Adjust width as needed */
-// }
+/* Make the wrapper centered */
+.wrapper {
+    max-width: 800px;  /* Adjust width as needed */
+    margin: 0 auto;    /* Centers the content */
+    padding: 20px;
+}
 
 /* Ensure section takes full width */
 section {

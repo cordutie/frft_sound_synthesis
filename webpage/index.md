@@ -4,8 +4,10 @@ width_variable: 66%
 ---
 
 <div style="position: relative; width: 100%; height: 60px; margin-bottom: 20px;">
-  <img src="assets/img/uc.svg" alt="UC Logo" style="position: absolute; top: 50%; left: 0; height: 80px; transform: translateY(-50%);">
-  <img src="assets/img/upf.png" alt="UPF Logo" style="position: absolute; top: 50%; right: 0; height: 60px; transform: translateY(-50%);">
+  <img src="assets/img/uc.svg" alt="UC Logo"
+       style="position: absolute; top: 50%; left: 0; max-height: 60px; max-width: 50%; height: auto; width: auto; transform: translateY(-50%);">
+  <img src="assets/img/upf.png" alt="UPF Logo"
+       style="position: absolute; top: 50%; right: 0; max-height: 60px; max-width: 50%; height: auto; width: auto; transform: translateY(-50%);">
 </div>
 
 <div style="text-align: center">
