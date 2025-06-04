@@ -1,10 +1,9 @@
 ---
-layout: inner_no_margin
-width_variable: 100%
-margin: 0
+layout: default_no_margin
+title: Fractional Fourier Sound Synthesis
 ---
 
-[back](./)
+[Back](./)
 
 This table presents several examples in which various sound sources are transformed using the Fractional Fourier Transform (FrFT) with differing parameter settings. All audio materials originate from original recordings created by the first author for a previous project.
 

@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
     {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style_inner_no_margin.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 
     <!-- MathJax for LaTeX-style math -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -13,20 +14,13 @@
       src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
     </script>
 
-    {% include head-custom.html %}
   </head>
   <body>
-    <div class="wrapper">
+    <div class="wrapper-no-margin">
       <section>
         {{ content }}
       </section>
     </div>
-    <!-- <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script> -->
   </body>
-  <!-- <style>
-    .wrapper {
-      max-width: {{ page.width_variable | default: "100%" }}; 
-      margin: {{ page.margin_variable | default: "0 auto" }};
-    }
-  </style> -->
+
 </html>

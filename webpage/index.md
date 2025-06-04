@@ -1,6 +1,6 @@
 ---
-layout: inner_no_margin
-width_variable: 66%
+layout: default
+title: Fractional Fourier Sound Synthesis
 ---
 
 <div style="position: relative; width: 100%; height: 60px; margin-bottom: 20px;">
@@ -29,7 +29,7 @@ width_variable: 66%
 </div>
 
 <p>
-This webpage provides supplementary materials for our paper <em>"Fractional Fourier Sound Synthesis"</em>, to be presented at the International Computer Music Conference (ICMC) 2025 to be developed in Boston.
+This webpage provides supplementary materials for our paper <em>"Fractional Fourier Sound Synthesis"</em>, to be presented at the International Computer Music Conference (ICMC) 2025 to be held in Boston.
 </p>
 
 <div style="margin-top: 20px;"></div>
@@ -60,7 +60,7 @@ This webpage provides supplementary materials for our paper <em>"Fractional Four
 <div style="margin-top: 40px;"></div>
 <h2><strong>Acknowledgements</strong></h2>
 
-This research was supported by the ANID Fondecyt Grant \#1230926 funded by the Government of Chile and the project "IA y Música: Cá-tedra en Inteligencia Artificial y Música (TSI-100929-2023-1)" funded by the "Secretaría de Estado de Digitalización e Inteligencia Artificial and the Unión Europea-Next Generation EU". We would also like to thank Diego Vera for his contributions to an early version of this project during his undergraduate research.
+This research was supported by ANID Fondecyt Regular Grant #1230926, ANID Anillo ATE220041, Government of Chile, and the project "IA y Música: Cátedra en Inteligencia Artificial y Música (TSI-100929-2023-1)" funded by the "Secretaría de Estado de Digitalización e Inteligencia Artificial and the Unión Europea-Next Generation EU". We would also like to thank Diego Vera for his contributions to an early version of this project during his undergraduate research.
 
 <div style="justify-content: center; width: 100%;">
   <img src="assets/img/chair.png" alt="Funding" style="top: 50%; right: 0; width: 100%;">
