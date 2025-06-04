@@ -29,7 +29,7 @@ title: Fractional Fourier Sound Synthesis
 </div>
 
 <p>
-This webpage provides supplementary materials for our paper <em>"Fractional Fourier Sound Synthesis"</em>, to be presented at the International Computer Music Conference (ICMC) 2025 to be held in Boston.
+This webpage provides supplementary materials for our paper <em>"Fractional Fourier Sound Synthesis"</em>, to be presented at the International Computer Music Conference (ICMC) 2025 in Boston, USA.
 </p>
 
 <div style="margin-top: 20px;"></div>
