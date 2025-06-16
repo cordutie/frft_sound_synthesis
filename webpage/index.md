@@ -28,6 +28,22 @@ title: Fractional Fourier Sound Synthesis
 </p>
 </div>
 
+<div style="text-align: center; margin-top: 1em; margin-bottom: -0.3em;">
+  <a href="https://www.arxiv.org/abs/2506.09189" 
+    style="display: inline-block; background: #3498db; color: white; padding: 0.6em 1em; border-radius: 5px; text-decoration: none; margin: 0.3em 0em;">
+    📄 Paper
+  </a>
+  <a href="https://github.com/cordutie/frft_sound_synthesis" 
+    style="display: inline-block; background: #3498db; color: white; padding: 0.6em 1em; border-radius: 5px; text-decoration: none; margin: 0.3em 0em;">
+    <img src="/assets/img/gh_logo.png" alt="GitHub" width="15" style="filter: invert(1); vertical-align: -0.2em;" /> Experiments repository
+  </a>
+  <a href="#" onclick="event.preventDefault(); navigator.clipboard.writeText('@inproceedings{gutierrez2025frft,\n title     = {Fractional Fourier Sound Synthesis},\n author    = {Esteban Gutiérrez and Rodrigo Cádiz and Carlos Sing Long and Frederic Font and Xavier Serra},\n booktitle = {Proceedings of the 50th International Computer Music Conference (ICMC) 2025},\n year      = {2025},\n address   = {Boston, USA},\n month     = {June},\n note      = {8--14 September 2025}\n}'); alert('Copied to clipboard!');"
+    style="display: inline-block; background: #3498db; color: white; padding: 0.6em 1em; border-radius: 5px; text-decoration: none; margin: 0.3em 0em;">
+    📚 Bibtex
+  </a>
+</div>
+
+<div style="margin-top: 20px;"></div>
 <p>
 This webpage provides supplementary materials for our paper <em>"Fractional Fourier Sound Synthesis"</em>, to be presented at the International Computer Music Conference (ICMC) 2025 in Boston, USA.
 </p>
