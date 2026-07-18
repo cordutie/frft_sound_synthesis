@@ -48,6 +48,14 @@ title: Fractional Fourier Sound Synthesis
 This webpage provides supplementary materials for our paper <em>"Fractional Fourier Sound Synthesis"</em>, to be presented at the International Computer Music Conference (ICMC) 2025 in Boston, USA.
 </p>
 
+<div style="margin-top: 40px;"></div>
+<div style="display: flex; justify-content: center;">
+  <div style="border-left: 4px solid rgb(200, 200, 200); background:rgb(230, 230, 230); padding: 1em 1.2em; margin: 1.5em 0; border-radius: 8px; max-width: 300px; width: 100%;">
+    🚧 <strong>Disclaimer:</strong> This was our first work exploring Fractional Fourier sound synthesis. A newer version, published in the <em>Journal of the Audio Engineering Society (JAES)</em>, focuses on running the FrFT in real time, notably through a custom-designed Max package. Check it out <a href="https://cordutie.github.io/rt_frft/">here</a>.
+  </div>
+</div>
+
+
 <div style="margin-top: 20px;"></div>
 <h2><strong>1. Introduction</strong></h2>
 {% include_relative 1_introduction.md %}
