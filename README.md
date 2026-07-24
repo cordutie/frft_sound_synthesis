@@ -1,3 +1,8 @@
+# We developed a real-time implementation for all the techniques introduced here and further explore them. See more about this in the new webpage:
+
+[https://cordutie.github.io/projects/frft.html](https://cordutie.github.io/projects/frft.html)
+
+
 # frft_sound_synthesis
 Repository designed to showcase the results of the paper "Fractional Fourier Sound Synthesis" presented at the ICMC 2025 in Boston, USA.
 
